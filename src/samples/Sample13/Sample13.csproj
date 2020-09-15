@@ -6,6 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\activities\Elsa.Activities.Reflection\Elsa.Activities.Reflection.csproj" />
       <ProjectReference Include="..\..\core\Elsa\Elsa.csproj" />
     </ItemGroup>
 

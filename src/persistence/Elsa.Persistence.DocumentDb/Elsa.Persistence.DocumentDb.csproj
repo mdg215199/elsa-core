@@ -1,9 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <LangVersion>8.0</LangVersion>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>2.0.1</PackageVersion>
         <Authors>Elsa Contributors</Authors>
         <Description>
             Elsa is a set of workflow libraries and tools that enable super-fast workflowing capabilities in any .NET Core application.
@@ -25,7 +25,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Azure.DocumentDB.Core" Version="2.9.2" />
+        <PackageReference Include="Microsoft.Azure.DocumentDB.Core" Version="2.11.6" />
     </ItemGroup>
 
     <ItemGroup>

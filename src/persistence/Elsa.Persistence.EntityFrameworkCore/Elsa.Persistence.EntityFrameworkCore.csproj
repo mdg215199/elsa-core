@@ -4,7 +4,7 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <TargetFramework>netcoreapp3.0</TargetFramework>
         <LangVersion>latest</LangVersion>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>2.0.1</PackageVersion>
         <Authors>Elsa Contributors</Authors>
         <Description>
             Elsa is a set of workflow libraries and tools that enable super-fast workflowing capabilities in any .NET Core application.
@@ -26,18 +26,21 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="FlexLabs.EntityFrameworkCore.Upsert" Version="3.0.0" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.1" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.1" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.1" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+        <PackageReference Include="FlexLabs.EntityFrameworkCore.Upsert" Version="3.1.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.0" />
-        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.8" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.8" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.2" />
     </ItemGroup>
 
     <ItemGroup>

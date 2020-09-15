@@ -121,7 +121,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample22", "src\samples\Sam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample23", "src\samples\Sample23\Sample23.csproj", "{5F16E2EC-7162-47F8-B8F1-81CACB05A5D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample24", "src\samples\Sample24\Sample24.csproj", "{C7B1C36D-7297-4AA2-8AFE-31FC5CB99AA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample24", "src\samples\Sample24\Sample24.csproj", "{C7B1C36D-7297-4AA2-8AFE-31FC5CB99AA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elsa.Activities.McxExecution", "src\activities\Elsa.Activities.McxExecution\Elsa.Activities.McxExecution.csproj", "{D74444E5-1A28-4FA1-8382-DEC89A47DA66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -313,6 +315,10 @@ Global
 		{C7B1C36D-7297-4AA2-8AFE-31FC5CB99AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7B1C36D-7297-4AA2-8AFE-31FC5CB99AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7B1C36D-7297-4AA2-8AFE-31FC5CB99AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74444E5-1A28-4FA1-8382-DEC89A47DA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74444E5-1A28-4FA1-8382-DEC89A47DA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74444E5-1A28-4FA1-8382-DEC89A47DA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74444E5-1A28-4FA1-8382-DEC89A47DA66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -370,6 +376,7 @@ Global
 		{BE634D4E-73A1-48CE-8682-F548CA0BA5B6} = {5E5E1E84-DDBC-40D6-B891-0D563A15A44A}
 		{5F16E2EC-7162-47F8-B8F1-81CACB05A5D9} = {5E5E1E84-DDBC-40D6-B891-0D563A15A44A}
 		{C7B1C36D-7297-4AA2-8AFE-31FC5CB99AA0} = {5E5E1E84-DDBC-40D6-B891-0D563A15A44A}
+		{D74444E5-1A28-4FA1-8382-DEC89A47DA66} = {B43B546E-23F3-46E8-ACB7-D04F05CDA180}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B0975FD-7050-48B0-88C5-48C33378E158}

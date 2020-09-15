@@ -6,7 +6,7 @@
         <LangVersion>8.0</LangVersion>
         <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
         <Nullable>enable</Nullable>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>2.0.1</PackageVersion>
         <Authors>Elsa Contributors</Authors>
         <Description>
             Elsa is a set of workflow libraries and tools that enable super-fast workflowing capabilities in any .NET Core application.
@@ -32,7 +32,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Humanizer.Core" Version="2.7.9" />
+        <PackageReference Include="Humanizer.Core" Version="2.8.26" />
     </ItemGroup>
 
     <ItemGroup>

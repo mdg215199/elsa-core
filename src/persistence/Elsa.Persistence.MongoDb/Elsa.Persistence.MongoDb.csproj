@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <LangVersion>latest</LangVersion>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>2.0.1</PackageVersion>
         <Authors>Elsa Contributors</Authors>
         <Description>
             Elsa is a set of workflow libraries and tools that enable super-fast workflowing capabilities in any .NET Core application.
@@ -29,8 +29,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="MongoDb.Bson.NodaTime" Version="2.0.0" />
-      <PackageReference Include="MongoDB.Driver" Version="2.10.1" />
+      <PackageReference Include="MongoDb.Bson.NodaTime" Version="2.1.0" />
+      <PackageReference Include="MongoDB.Driver" Version="2.11.2" />
     </ItemGroup>
 
 </Project>
